@@ -26,22 +26,25 @@ const Home = () => {
               </Link>
           </p>
            </div>
-         <div className='grid justify-center gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mt-14'>
+         <div className='grid justify-center gap-8 lg:grid-cols-3 md:grid-cols-3 grid-cols-1  mt-14'>
           <Link to="/woman">
-          <div className="card w-[470px] h-[700px] card-side bg-base-100 shadow-xl">
-             <figure><img src={image1} alt="Movie"/>
+          <div className="card  w-full card-side bg-base-100 shadow-xl">
+             <figure className='w-full'>
+              <img src={image1} alt="Movie"/>
             </figure> 
         </div>
           </Link>
          <Link to="/men">
-         <div className="card w-[470px] h-[700px] card-side bg-base-100 shadow-xl">
-             <figure><img src={image2} alt="Movie"/>
+         <div className="card  w-full card-side bg-base-100 shadow-xl">
+             <figure className='w-full'>
+                <img src={image2} alt="Movie"/>
             </figure>
         </div>
          </Link>
           <Link>
-          <div className="card w-[470px] h-[700px]  card-side shadow-xl">
-             <figure><img src={image3} alt="Movie"/>
+          <div className="card  w-full  card-side shadow-xl">
+             <figure className='w-full'>
+              <img src={image3} alt="Movie"/>
             </figure>
         </div>
           </Link>
